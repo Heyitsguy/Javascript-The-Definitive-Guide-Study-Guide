@@ -19,3 +19,27 @@ a program. Examples of which are:
   * **Object Literals** `{car:red, bike:maroon}`(Object initializer)
   * **Numbers**
   * **Booleans**
+
+* Identifiers is a name for anything in Javascript, most commonly variables.
+They can begin with:
+  i.A letter
+  ii.an underscore
+  iii.Dollar sign
+
+* Keep in mind that there are certain reserved words in
+Javascript that have special meaning and cannot be used
+as an identifier.
+
+* Javascript treats line breaks as a semicolon when it
+cannot parse the code.
+
+* In general if a statement begins with `(,[,/,+, or -` there
+  is a chance that it could be interpreted as a continuation
+  of the statement before.
+
+* Some programmers use a defensive semi colon before the
+  statements that start with the characters listed above.
+
+* Do not insert a line break before 'return, break or continue' keywords.
+
+* `++ and --` should also be on the same line when postfixing them.
