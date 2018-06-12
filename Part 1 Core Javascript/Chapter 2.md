@@ -12,7 +12,7 @@ characters like vowels with tildes.
 * `//` are single line comments, while `/* comment here */`
 are used for multiline comments.
 
-* A *literals* is a data value that appears directly in
+* A *literal* is a data value that appears directly in
 a program. Examples of which are:
   * **String Literal** `"hi, im a string"`.
   * **Array Literals** `[Andy, Bill, 32, 20]` (Array Initializer)
@@ -22,9 +22,9 @@ a program. Examples of which are:
 
 * Identifiers is a name for anything in Javascript, most commonly variables.
 They can begin with:
-  i.A letter
-  ii.an underscore
-  iii.Dollar sign
+  1.A letter
+  2.an underscore
+  3.Dollar sign
 
 * Keep in mind that there are certain reserved words in
 Javascript that have special meaning and cannot be used
