@@ -22,9 +22,9 @@ a program. Examples of which are:
 
 * Identifiers is a name for anything in Javascript, most commonly variables.
 They can begin with:
-  1.A letter
-  2.an underscore
-  3.Dollar sign
+  1. A letter
+  2. An underscore
+  3. Dollar sign
 
 * Keep in mind that there are certain reserved words in
 Javascript that have special meaning and cannot be used
