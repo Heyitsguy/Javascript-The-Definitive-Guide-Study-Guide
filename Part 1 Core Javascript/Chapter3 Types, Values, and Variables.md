@@ -97,10 +97,13 @@ For array a, instead of `sort(a)` we call `a.sort`
  2. If 1 does not work then it checks the toString() method, converts and returns value.
  3. if 1 and 2 does not work then javascript will throw a type error.
 * Lets look at the conversion of an array (which is considered a special object) converting into a number:
- * Runs valueOf(). Since valueOf() method returns the object instead of a primitive type, it will go to option 2 and run toString() method.
- * toString() method runs and converts the array to a string by joining the array.
- * The string is then converted into a number. 
- * If the array only had one digit in it, the array will be converted to that number. If the array is empty, the array will be converted to 0.
- * If the array has more than one index of numbers, it will convert to NaN.
+  * Runs valueOf(). Since valueOf() method returns the object instead of a primitive type, it will go to option 2 and run toString() method.
+  * toString() method runs and converts the array to a string by joining the array.
+  * The string is then converted into a number. 
+  * If the array only had one digit in it, the array will be converted to that number. If the array is empty, the array will be converted to 0.
+  * If the array has more than one index of numbers, it will convert to NaN.
 * When you try to use ==, +, or != operators on objects it will try to use the valueOf() method first except for the date class. For the date class toString() method will try to be used.
 * All other relational operators like < will follow the valueOf() method including dates. Only the operators listed in the previous bullet point will have an exception for the date class.
+## Variable Declaration ##
+* Before you can use a variable you must declare it. This can be done with the var, let, or const keyword.
+* Often it is a good idea to initialize your variables when declaring like this: `var city = NYC`
